@@ -27,6 +27,8 @@ router.get('/:id', async (req, res) => {
   }
 });
 
+
+
 // create new product NEED HELP!!
 router.post('/', async (req, res) => {
   /* req.body should look like this...
@@ -100,13 +102,13 @@ router.put('/:id', async (req, res) => {
       return res.json(product);
     })
     .catch((err) => {
-      // console.log(err);
       res.status(400).json(err);
     });
 });
 
+
+
 router.delete('/:id', async (req, res) => {
-  // delete one product by its `id` value
   const id = await req.params.id
   try {
     const deleteProduct = Product.destroy({
