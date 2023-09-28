@@ -34,4 +34,6 @@ THEN I am able to successfully create, update, and delete data in my database
 
 > <a href="https://github.com/aidev13" target="_blank">My Github</a>
 
+> <a href="https://github.com/aidev13/ecom-backend" target="_blank">Challenge Repo</a>
+
 > <a href="https://drive.google.com/file/d/1qBo5Ow7FD7PM91O4PlA3YCE5tdEev92D/view" target="_blank">Video Link</a>
